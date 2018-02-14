@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+main	/home/tyvision/rp2/bzip2/mk251.c	/^int main ()$/;"	function	line:25
+html	/home/tyvision/rp2/bzip2/manual.html	/^<html>$/;"	function	line:1
+head	/home/tyvision/rp2/bzip2/manual.html	/^<head>$/;"	function	line:2
+meta	/home/tyvision/rp2/bzip2/manual.html	/^<meta http-equiv="Content-Type" content="text\/html; charset=ISO-8859-1">$/;"	function	line:3
+title	/home/tyvision/rp2/bzip2/manual.html	/^<title>bzip2 and libbzip2, version 1.0.6<\/title>$/;"	function	line:4
+meta	/home/tyvision/rp2/bzip2/manual.html	/^<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">$/;"	function	line:5
+style	/home/tyvision/rp2/bzip2/manual.html	/^<style type="text\/css" media="screen">\/* Colours:$/;"	function	line:6
+body	/home/tyvision/rp2/bzip2/manual.html	/^<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="book" title="bzip2 and libbzip2, version 1.0.6">$/;"	function	line:82
+div	/home/tyvision/rp2/bzip2/manual.html	/^<div class="titlepage">$/;"	function	line:83
+div	/home/tyvision/rp2/bzip2/manual.html	/^<div>$/;"	function	line:84
+div	/home/tyvision/rp2/bzip2/manual.html	/^<div><h1 class="title">$/;"	function	line:85
+userman	/home/tyvision/rp2/bzip2/manual.html	/^<a name="userman"><\/a>bzip2 and libbzip2, version 1.0.6<\/h1><\/div>$/;"	anchor	line:86
+a	/home/tyvision/rp2/bzip2/manual.html	/^<a name="userman"><\/a>bzip2 and libbzip2, version 1.0.6<\/h1><\/div>$/;"	function	line:86
+div	/home/tyvision/rp2/bzip2/manual.html	/^<div><h2 class="subtitle">A program and library for data compression<\/h2><\/div>$/;"	function	line:87
+div	/home/tyvision/rp2/bzip2/manual.html	/^<div><div class="authorgroup"><div class="author">$/;"	function	line:88
+h	/home/tyvision/rp2/bzip2/manual.html	/^<h3 class="author">$/;"	function	line:89
+span	/home/tyvision/rp2/bzip2/manual.html	/^<span class="firstname">Julian<\/span> <span class="surname">Seward<\/span>$/;"	function	line:90
+div	/home/tyvision/rp2/bzip2/manual.html	/^<div class="affiliation"><span class="orgname">http:\/\/www.bzip.org<br><\/span><\/div>$/;"	function	line:92
+div	/home/tyvision/rp2/bzip2/manual.html	/^<div><p class="releaseinfo">Version 1.0.6 of 6 September 2010<\/p><\/div>$/;"	function	line:94
+Binary file /home/tyvision/rp2/bzip2/.tags matches
+BZ2_bz__AssertH__fail	/home/tyvision/rp2/bzip2/bzlib.c	/^void BZ2_bz__AssertH__fail ( int errcode )$/;"	function	line:41	signature:( int errcode )
+bz_config_ok	/home/tyvision/rp2/bzip2/bzlib.c	/^int bz_config_ok ( void )$/;"	function	line:91	file:	signature:( void )
+default_bzalloc	/home/tyvision/rp2/bzip2/bzlib.c	/^void* default_bzalloc ( void* opaque, Int32 items, Int32 size )$/;"	function	line:102	file:	signature:( void* opaque, Int32 items, Int32 size )
+default_bzfree	/home/tyvision/rp2/bzip2/bzlib.c	/^void default_bzfree ( void* opaque, void* addr )$/;"	function	line:109	file:	signature:( void* opaque, void* addr )
+prepare_new_block	/home/tyvision/rp2/bzip2/bzlib.c	/^void prepare_new_block ( EState* s )$/;"	function	line:117	file:	signature:( EState* s )
+init_RL	/home/tyvision/rp2/bzip2/bzlib.c	/^void init_RL ( EState* s )$/;"	function	line:131	file:	signature:( EState* s )
+isempty_RL	/home/tyvision/rp2/bzip2/bzlib.c	/^Bool isempty_RL ( EState* s )$/;"	function	line:139	file:	signature:( EState* s )
+BZ2_bzCompressInit	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzCompressInit)$/;"	function	line:148	signature:( bz_stream* strm, int blockSize100k, int verbosity, int workFactor )
+add_pair_to_block	/home/tyvision/rp2/bzip2/bzlib.c	/^void add_pair_to_block ( EState* s )$/;"	function	line:216	file:	signature:( EState* s )
+flush_RL	/home/tyvision/rp2/bzip2/bzlib.c	/^void flush_RL ( EState* s )$/;"	function	line:252	file:	signature:( EState* s )
+ADD_CHAR_TO_BLOCK	/home/tyvision/rp2/bzip2/bzlib.c	/^#define ADD_CHAR_TO_BLOCK(/;"	macro	line:260	file:
+copy_input_until_stop	/home/tyvision/rp2/bzip2/bzlib.c	/^Bool copy_input_until_stop ( EState* s )$/;"	function	line:289	file:	signature:( EState* s )
+copy_output_until_stop	/home/tyvision/rp2/bzip2/bzlib.c	/^Bool copy_output_until_stop ( EState* s )$/;"	function	line:334	file:	signature:( EState* s )
+handle_compress	/home/tyvision/rp2/bzip2/bzlib.c	/^Bool handle_compress ( bz_stream* strm )$/;"	function	line:361	file:	signature:( bz_stream* strm )
+BZ2_bzCompress	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzCompress) ( bz_stream *strm, int action )$/;"	function	line:407	signature:( bz_stream *strm, int action )
+BZ2_bzCompressEnd	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzCompressEnd)  ( bz_stream *strm )$/;"	function	line:468	signature:( bz_stream *strm )
+BZ2_bzDecompressInit	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzDecompressInit)$/;"	function	line:492	signature:( bz_stream* strm, int verbosity, int small )
+unRLE_obuf_to_output_FAST	/home/tyvision/rp2/bzip2/bzlib.c	/^Bool unRLE_obuf_to_output_FAST ( DState* s )$/;"	function	line:536	file:	signature:( DState* s )
+BZ2_indexIntoF	/home/tyvision/rp2/bzip2/bzlib.c	/^__inline__ Int32 BZ2_indexIntoF ( Int32 indx, Int32 *cftab )$/;"	function	line:687	signature:( Int32 indx, Int32 *cftab )
+unRLE_obuf_to_output_SMALL	/home/tyvision/rp2/bzip2/bzlib.c	/^Bool unRLE_obuf_to_output_SMALL ( DState* s )$/;"	function	line:706	file:	signature:( DState* s )
+BZ2_bzDecompress	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzDecompress) ( bz_stream *strm )$/;"	function	line:808	signature:( bz_stream *strm )
+BZ2_bzDecompressEnd	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzDecompressEnd)  ( bz_stream *strm )$/;"	function	line:866	signature:( bz_stream *strm )
+BZ_SETERR	/home/tyvision/rp2/bzip2/bzlib.c	/^#define BZ_SETERR(/;"	macro	line:890	file:
+handle	/home/tyvision/rp2/bzip2/bzlib.c	/^      FILE*     handle;$/;"	member	line:898	struct:__anon1	file:
+buf	/home/tyvision/rp2/bzip2/bzlib.c	/^      Char      buf[BZ_MAX_UNUSED];$/;"	member	line:899	struct:__anon1	file:
+bufN	/home/tyvision/rp2/bzip2/bzlib.c	/^      Int32     bufN;$/;"	member	line:900	struct:__anon1	file:
+writing	/home/tyvision/rp2/bzip2/bzlib.c	/^      Bool      writing;$/;"	member	line:901	struct:__anon1	file:
+strm	/home/tyvision/rp2/bzip2/bzlib.c	/^      bz_stream strm;$/;"	member	line:902	struct:__anon1	file:
+lastErr	/home/tyvision/rp2/bzip2/bzlib.c	/^      Int32     lastErr;$/;"	member	line:903	struct:__anon1	file:
+initialisedOk	/home/tyvision/rp2/bzip2/bzlib.c	/^      Bool      initialisedOk;$/;"	member	line:904	struct:__anon1	file:
+bzFile	/home/tyvision/rp2/bzip2/bzlib.c	/^   bzFile;$/;"	typedef	line:906	typeref:struct:__anon1	file:
+myfeof	/home/tyvision/rp2/bzip2/bzlib.c	/^static Bool myfeof ( FILE* f )$/;"	function	line:910	file:	signature:( FILE* f )
+BZ2_bzWriteOpen	/home/tyvision/rp2/bzip2/bzlib.c	/^BZFILE* BZ_API(BZ2_bzWriteOpen)$/;"	function	line:920	signature:( int* bzerror, FILE* f, int blockSize100k, int verbosity, int workFactor )
+BZ2_bzWrite	/home/tyvision/rp2/bzip2/bzlib.c	/^void BZ_API(BZ2_bzWrite)$/;"	function	line:968	signature:( int* bzerror, BZFILE* b, void* buf, int len )
+BZ2_bzWriteClose	/home/tyvision/rp2/bzip2/bzlib.c	/^void BZ_API(BZ2_bzWriteClose)$/;"	function	line:1013	signature:( int* bzerror, BZFILE* b, int abandon, unsigned int* nbytes_in, unsigned int* nbytes_out )
+BZ2_bzWriteClose64	/home/tyvision/rp2/bzip2/bzlib.c	/^void BZ_API(BZ2_bzWriteClose64)$/;"	function	line:1025	signature:( int* bzerror, BZFILE* b, int abandon, unsigned int* nbytes_in_lo32, unsigned int* nbytes_in_hi32, unsigned int* nbytes_out_lo32, unsigned int* nbytes_out_hi32 )
+BZ2_bzReadOpen	/home/tyvision/rp2/bzip2/bzlib.c	/^BZFILE* BZ_API(BZ2_bzReadOpen)$/;"	function	line:1091	signature:( int* bzerror, FILE* f, int verbosity, int small, void* unused, int nUnused )
+BZ2_bzReadClose	/home/tyvision/rp2/bzip2/bzlib.c	/^void BZ_API(BZ2_bzReadClose) ( int *bzerror, BZFILE *b )$/;"	function	line:1147	signature:( int *bzerror, BZFILE *b )
+BZ2_bzRead	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzRead)$/;"	function	line:1165	signature:( int* bzerror, BZFILE* b, void* buf, int len )
+BZ2_bzReadGetUnused	/home/tyvision/rp2/bzip2/bzlib.c	/^void BZ_API(BZ2_bzReadGetUnused)$/;"	function	line:1225	signature:( int* bzerror, BZFILE* b, void** unused, int* nUnused )
+BZ2_bzBuffToBuffCompress	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzBuffToBuffCompress)$/;"	function	line:1251	signature:( char* dest, unsigned int* destLen, char* source, unsigned int sourceLen, int blockSize100k, int verbosity, int workFactor )
+BZ2_bzBuffToBuffDecompress	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzBuffToBuffDecompress)$/;"	function	line:1303	signature:( char* dest, unsigned int* destLen, char* source, unsigned int sourceLen, int small, int verbosity )
+BZ2_bzlibVersion	/home/tyvision/rp2/bzip2/bzlib.c	/^const char * BZ_API(BZ2_bzlibVersion)(void)$/;"	function	line:1370	signature:(void)
+SET_BINARY_MODE	/home/tyvision/rp2/bzip2/bzlib.c	/^#   define SET_BINARY_MODE(/;"	macro	line:1382	file:
+SET_BINARY_MODE	/home/tyvision/rp2/bzip2/bzlib.c	/^#   define SET_BINARY_MODE(/;"	macro	line:1384	file:
+bzopen_or_bzdopen	/home/tyvision/rp2/bzip2/bzlib.c	/^BZFILE * bzopen_or_bzdopen$/;"	function	line:1387	file:	signature:( const char *path, int fd, const char *mode, int open_mode)
+BZ2_bzopen	/home/tyvision/rp2/bzip2/bzlib.c	/^BZFILE * BZ_API(BZ2_bzopen)$/;"	function	line:1464	signature:( const char *path, const char *mode )
+BZ2_bzdopen	/home/tyvision/rp2/bzip2/bzlib.c	/^BZFILE * BZ_API(BZ2_bzdopen)$/;"	function	line:1473	signature:( int fd, const char *mode )
+BZ2_bzread	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzread) (BZFILE* b, void* buf, int len )$/;"	function	line:1482	signature:(BZFILE* b, void* buf, int len )
+BZ2_bzwrite	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzwrite) (BZFILE* b, void* buf, int len )$/;"	function	line:1496	signature:(BZFILE* b, void* buf, int len )
+BZ2_bzflush	/home/tyvision/rp2/bzip2/bzlib.c	/^int BZ_API(BZ2_bzflush) (BZFILE *b)$/;"	function	line:1510	signature:(BZFILE *b)
+BZ2_bzclose	/home/tyvision/rp2/bzip2/bzlib.c	/^void BZ_API(BZ2_bzclose) (BZFILE* b)$/;"	function	line:1518	signature:(BZFILE* b)
+bzerrorstrings	/home/tyvision/rp2/bzip2/bzlib.c	/^static const char *bzerrorstrings[] = {$/;"	variable	line:1543	file:
+BZ2_bzerror	/home/tyvision/rp2/bzip2/bzlib.c	/^const char * BZ_API(BZ2_bzerror) (BZFILE *b, int *errnum)$/;"	function	line:1563	signature:(BZFILE *b, int *errnum)

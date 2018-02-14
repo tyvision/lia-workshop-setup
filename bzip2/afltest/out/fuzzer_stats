@@ -1,0 +1,27 @@
+start_time        : 1500490413
+last_update       : 1500490462
+fuzzer_pid        : 30438
+cycles_done       : 50
+execs_done        : 140379
+execs_per_sec     : 2541.67
+paths_total       : 61
+paths_favored     : 1
+paths_found       : 0
+paths_imported    : 0
+max_depth         : 1
+cur_path          : 34
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.23%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 0
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 140379
+exec_timeout      : 20
+afl_banner        : bzip2
+afl_version       : 2.49b
+command_line      : afl-fuzz -i afltest/in/ -o afltest/out/ ./bzip2 -dk @@
