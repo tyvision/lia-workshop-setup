@@ -20,11 +20,11 @@ Check IP addresses (they are hardcoded in `docker-compose.yml` file) and replace
 ## How to deploy
 
 Just run `deploy_infrastructure.sh` script with **root** privileges. Script will install `git`, `docker`, `docker-compose` and then deploy `gitlab-ci`, `sonarqube` (with postgres as a dependency), and `gitlab-runner`. All you have to do is: 
-1) to open gitlab-ci using `your IP:80`, 
-2) change default password and login, 
-3) create test project, 
-4) go to Settings->CI/CD and see the IP + token for registering new runner
-5) go to `/var/lib/docker/volumes/dockersonarqube_sonarqube_extensions/_data/plugins` and put plugin files from `plugins/` folder
+1. to open gitlab-ci using `your IP:80`, 
+2. change default password and login, 
+3. create test project, 
+4. go to Settings->CI/CD and see the IP + token for registering new runner
+5. go to `/var/lib/docker/volumes/dockersonarqube_sonarqube_extensions/_data/plugins` and put plugin files from `plugins/` folder
 
 ## Test repo howto
 ### What is here?
@@ -39,13 +39,13 @@ Copy files from folder `test` to any folder you like outside this one (git does 
 
 There are 2 main files that you should configure:
 - sonar-project.properties -- sonar-scanner config file with project properties (do not forget where to send the reports)
-```
-#----- Default SonarQube server
+
+```#----- Default SonarQube server
 sonar.host.url=http://<your IP>:9000
 
 #----- Default source code encoding
-sonar.sourceEncoding=UTF-8
-```
+sonar.sourceEncoding=UTF-8```
+
 - .gitlab-ci.yaml -- gitlab continious integration config file. If present, it launches the CI pipeline on the runner.
 
 ## TODOs List
