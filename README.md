@@ -44,8 +44,8 @@ There are 2 main files that you should configure:
 sonar.host.url=http://<your IP>:9000
 
 #----- Default source code encoding
-sonar.sourceEncoding=UTF-8```
-
+sonar.sourceEncoding=UTF-8
+```
 - .gitlab-ci.yaml -- gitlab continious integration config file. If present, it launches the CI pipeline on the runner.
 
 ## TODOs List
