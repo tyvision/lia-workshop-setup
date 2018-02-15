@@ -40,7 +40,8 @@ Copy files from folder `test` to any folder you like outside this one (git does 
 There are 2 main files that you should configure:
 - sonar-project.properties -- sonar-scanner config file with project properties (do not forget where to send the reports)
 
-```#----- Default SonarQube server
+```
+#----- Default SonarQube server
 sonar.host.url=http://<your IP>:9000
 
 #----- Default source code encoding
